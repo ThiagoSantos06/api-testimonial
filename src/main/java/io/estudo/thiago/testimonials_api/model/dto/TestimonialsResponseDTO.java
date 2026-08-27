@@ -6,10 +6,10 @@ import java.util.UUID;
 public record TestimonialsResponseDTO(
 
         UUID id,
-        String nome,
-        String projectName,
+        String name,
+        String project_name,
         String position,
-        String testimonials,
-        LocalDateTime testimonialsDate
+        String testimonial,
+        LocalDateTime testimonial_Date
 ) {
 }
